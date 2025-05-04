@@ -1,0 +1,86 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+div {
+    padding: 30px;
+}
+
+.logo {
+    grid-column: 1 / 4;
+}
+
+.nav {
+    grid-column: 4 / 10;
+}
+
+.auth {
+    grid-column: 10 / 13;
+}
+
+.hero-description {
+    grid-column: 1 / 7;
+}
+
+.hero-image {
+    grid-column: 7 / 13;
+    text-align: center;
+}
+
+.hero-description h1 {
+    font-size: 4em;
+}
+
+.hero-description p {
+    font-size: 1.5em;
+}
+
+.hero-description button {
+    font-size: 1.2em;
+}
+
+.nav
+{
+    font-family: sans-serif;
+}
+.menu li
+{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+a
+{
+    text-decoration: none;
+}
+/* Styles for ipad or Desktop Devices */
+
+@media (min-width:992px){
+    .menu {
+    display: flex;
+    }
+}
+button.box1
+{
+    border: none;
+    color:tomato;
+    margin-right: 50px;
+    font-family: sans-serif;
+    font-size: large;
+    background-color: white;
+}
+button.box
+{
+    border: none;
+    padding:10px 30px 10px 30px;
+    background-color: chocolate;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+}
+.hero-para
+{
+    font-family: sans-serif;
+    color: gray;
+}
